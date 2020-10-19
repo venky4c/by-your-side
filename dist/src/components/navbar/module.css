@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-items: end;
+}
+button {
+  width: 80px;
+  height: 32px;
+  /* background-color: transparent; */
+  /* border: 1px solid black; */
+  /* border-radius: 10px; */
+  border: none;
+  outline: none !important;
+  margin: 0 3px;
+}
+.lastbtn {
+  margin-right: 50px;
+}
