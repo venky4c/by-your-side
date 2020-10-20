@@ -10,6 +10,16 @@ body {
   font-family: "Merriweather", serif;
 }
 
+@mixin desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: 375px) {
+    @content;
+  }
+}
 h1,
 h2,
 h3,

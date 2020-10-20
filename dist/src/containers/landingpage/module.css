@@ -1,0 +1,23 @@
+@mixin desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: 375px;) {
+    @content;
+  }
+}
+div {
+  display: grid;
+  @include desktop {
+    display: flex;
+    border: 1px solid black;
+  }
+}
+.text {
+  display: grid;
+}
+.image {
+  display: block;
+}

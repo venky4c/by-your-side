@@ -1,6 +1,21 @@
+/* @mixin desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: 375px;) {
+    @content;
+  }
+} */
 .navbar {
-  display: flex;
-  justify-items: end;
+  display: grid;
+  border: 1px solid red;
+
+  @include desktop {
+    display: flex;
+    justify-items: end;
+  }
 }
 button {
   width: 80px;
